@@ -15,3 +15,5 @@ git push -u origin master
 # Other useful command
 git add <file>
 git status
+
+git commit -m "first commit" *         --> to commit all modifications

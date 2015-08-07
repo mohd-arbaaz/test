@@ -1,0 +1,17 @@
+    1  cd E:
+    2  pwd
+    3  ls
+    4  cd test
+   12  echo "test readme" >> README.md
+   13  git init
+   14  git add README.md
+   15  git commit -m "first commit"
+   16  git remote add origin https://github.com/mohd-arbaaz/test.git
+   17  git push -u origin master
+   18  history | tail
+   19  git config --global user.name mohd-arbaaz
+   20  git config --global user.email "arbaaz.apz@gmail.com"
+   21  git config --global http.proxy http://mohd.arbaaz%40studets.iiit.ac.in:d3dd0@proxy.iiit.ac.in:8080
+   22  git push -u origin master
+   23  git push -u origin master
+   24  history > hist.txt
